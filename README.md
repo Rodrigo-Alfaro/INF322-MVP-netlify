@@ -1,4 +1,16 @@
-# frontend-sample-app
+# Proyecto INF-322 Interfaces de Usuario, Feria de Software Virtual
+## Integrantes:
+- Ignacio Pérez, Rol:201730022-1
+- Rodrigo Alfaro, Rol: 202030013-5
+- David Carrasco, Rol: 201930028-8
+
+
+
+# Detalles Técnicos
+
+
+
+## frontend-sample-app
 
 Basic Frontend Development Environment to start an app with Webpack
 
