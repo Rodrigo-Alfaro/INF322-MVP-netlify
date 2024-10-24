@@ -17,10 +17,23 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         className={navLinkClass}
+        to='/expositores'
+      >
+        Expositores
+      </NavLink>
+      <NavLink
+        className={navLinkClass}
         to='/lightbulb'
       >
-        Ampolleta
+        Contacto
       </NavLink>
+      <NavLink
+        className={navLinkClass}
+        to='/lightbulb'
+      >
+        Acerca de la Feria del software
+      </NavLink>
+      
     </nav>
   )
 }
