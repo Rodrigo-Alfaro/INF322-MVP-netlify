@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import '../stylesheets/home_page.scss';
 
 export const HomePage = () => {
   return (
     <>
-      <p>¡Te damos la bienvenida a la Interfaz energética!</p>
-      <p>En esta página encontraras una 💡 ampolleta que podrás encender y apagar con un botón</p>
+      <p>¡Te damos la bienvenida a la Feria del Software del departamento de Informática USM!</p>
+      <p></p>
+      <Link to="/projects"> Ver proyectos </Link>
     </>
   )
 }
