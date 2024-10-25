@@ -23,19 +23,19 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/lightbulb'
+        to='/contacto'
       >
         Contacto
       </NavLink>
       <NavLink
         className={navLinkClass}
-        to='/lightbulb'
+        to='/about'
       >
-        Acerca de la Feria del software
+        Acerca de la Feria del Software
       </NavLink>
       
     </nav>
   )
 }
- 
+
 export default NavBar
