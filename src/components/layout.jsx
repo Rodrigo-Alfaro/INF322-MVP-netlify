@@ -6,6 +6,8 @@ import LightbulbPage from '../pages/lightbulb_page'
 import ExpositoresPage from '../pages/expositores_page'
 import ContactoPage from '../pages/contacto_page'
 import AboutPage from '../pages/about_page'
+import ProjectPage from '../pages/proyecto_page'
+import RedesSocialesPage from '../pages/proyecto_rrss_page'
 
 import NavBar from '../components/nav_bar'
 
@@ -22,6 +24,8 @@ const Layout = () => {
             <Route path='/expositores' element={<ExpositoresPage />} />
             <Route path='/contacto' element={<ContactoPage />} />
             <Route path='/about' element={<AboutPage />} />
+            <Route path='/proyecto' element={<ProjectPage />} />
+            <Route path='/rrss' element={<RedesSocialesPage />} />
           </Routes>
         </div>
       </div>

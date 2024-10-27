@@ -33,6 +33,12 @@ export const NavBar = () => {
       >
         Acerca de la Feria del Software
       </NavLink>
+      <NavLink
+        className={navLinkClass}
+        to='/proyecto'
+      >
+        TEST
+      </NavLink>
       
     </nav>
   )
