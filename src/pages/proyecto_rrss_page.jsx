@@ -28,10 +28,10 @@ export const RedesSocialesPage = () => {
                 </div>
             </div>
             <BottomNavbar
-                problemUrl="http://localhost:5050/proyecto"
-                socialUrl="https://www.youtube.com/watch?v=2vJ4d8xRt7E&t=8183s"
-                teamUrl="http://localhost:5050/"
-                detailsUrl="URL_MAS_DETALLES"
+                problemUrl={"http://localhost:5050/proyecto"}
+                socialUrl="http://localhost:5050/rrss"
+                teamUrl="http://localhost:5050/equipo"
+                detailsUrl="http://localhost:5050/detalles"
             />
         </div>
     );

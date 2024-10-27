@@ -8,6 +8,8 @@ import ContactoPage from '../pages/contacto_page'
 import AboutPage from '../pages/about_page'
 import ProjectPage from '../pages/proyecto_page'
 import RedesSocialesPage from '../pages/proyecto_rrss_page'
+import ProjectTeamPage from '../pages/proyecto_equipo_page'
+import ProjectDetallesPage from '../pages/proyecto_detalles_page'
 
 import NavBar from '../components/nav_bar'
 
@@ -26,6 +28,8 @@ const Layout = () => {
             <Route path='/about' element={<AboutPage />} />
             <Route path='/proyecto' element={<ProjectPage />} />
             <Route path='/rrss' element={<RedesSocialesPage />} />
+            <Route path='/equipo' element={<ProjectTeamPage />} />
+            <Route path='/detalles' element={<ProjectDetallesPage />} />
           </Routes>
         </div>
       </div>

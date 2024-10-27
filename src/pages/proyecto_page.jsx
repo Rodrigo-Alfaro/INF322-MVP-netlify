@@ -26,7 +26,7 @@ export const ProjectPage = () => {
       <BottomNavbar
       problemUrl={"http://localhost:5050/proyecto"}
        socialUrl="http://localhost:5050/rrss" 
-       teamUrl="http://localhost:5050/"
+       teamUrl="http://localhost:5050/equipo"
        detailsUrl="URL_MAS_DETALLES"
       >
       </BottomNavbar>
