@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Waxillium Ladrian",
+        "role": "Desarrollador Frontend",
+        "description": "Apasionado por el diseño de interfaces y la experiencia del usuario. Responsable de la implementación visual del proyecto.",
+        "imageUrl": "URL_DE_IMAGEN_KELSIER",
+        "socialUrl": {
+            "linkedin": "URL_DE_LINKEDIN_KELSIER",
+            "twitter": "URL_DE_TWITTER_KELSIER",
+            "github": "URL_DE_GITHUB_KELSIER"
+        }
+    },
+    {
+        "name": "Jasnah Kholin",
+        "role": "Desarrolladora Backend",
+        "description": "Experta en sistemas de bases de datos y lógica de negocio, asegurando que el sistema sea robusto y escalable.",
+        "imageUrl": "URL_DE_IMAGEN_JASNAH",
+        "socialUrl": {
+            "linkedin": "URL_DE_LINKEDIN_JASNAH",
+            "twitter": "URL_DE_TWITTER_JASNAH",
+            "github": "URL_DE_GITHUB_JASNAH"
+        }
+    },
+    {
+        "name": "Adolin Kholin",
+        "role": "Diseñador UX/UI",
+        "description": "Encargado de crear la estructura y estética de la aplicación para una navegación intuitiva.",
+        "imageUrl": "URL_DE_IMAGEN_ADOLIN",
+        "socialUrl": {
+            "linkedin": "URL_DE_LINKEDIN_ADOLIN",
+            "twitter": "URL_DE_TWITTER_ADOLIN",
+            "github": "URL_DE_GITHUB_ADOLIN"
+        }
+    },
+    {
+        "name": "Marasi Colms",
+        "role": "Gerente de Proyecto",
+        "description": "Lidera el equipo y gestiona la comunicación entre los desarrolladores y las partes interesadas del proyecto.",
+        "imageUrl": "URL_DE_IMAGEN_NAVANI",
+        "socialUrl": {
+            "linkedin": "URL_DE_LINKEDIN_NAVANI",
+            "twitter": "URL_DE_TWITTER_NAVANI",
+            "github": "URL_DE_GITHUB_NAVANI"
+        }
+    }
+]

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 
 export const contactoPage = () => {
   const [formData, setFormData] = useState({
@@ -7,48 +8,16 @@ export const contactoPage = () => {
     message: ''
   });
 
-  const organizers = [
-    
-      {
-        name: "Kaladin Stormblessed",
-        role: "Highmarshal of the Windrunners",
-        description: "A former soldier turned Windrunner, Kaladin leads his squad with unmatched skill and honor, protecting those who cannot protect themselves.",
-        image: "/api/placeholder/140/140",
-        social: {
-          linkedin: "https://linkedin.com/",
-          twitter: "https://twitter.com/",
-          github: "https://github.com/"
-        }
-      },
-      {
-        name: "Shallan Davar",
-        role: "Knight Radiant, Lightweaver",
-        description: "A brilliant scholar and artist, Shallan uses her abilities as a Lightweaver to uncover secrets and reshape the world with her illusions.",
-        image: "/api/placeholder/140/140",
-        social: {
-          linkedin: "https://linkedin.com/",
-          twitter: "https://twitter.com/",
-          github: "https://github.com/"
-        }
-      },
-      {
-        name: "Dalinar Kholin",
-        role: "Highprince of Alethkar",
-        description: "Known as the Blackthorn in his younger days, Dalinar now seeks to unite the shattered nations of Roshar under his leadership and the ideals of the Knights Radiant.",
-        image: "/api/placeholder/140/140",
-        social: {
-          linkedin: "https://linkedin.com/",
-          twitter: "https://twitter.com/",
-          github: "https://github.com/"
-        }
-      }
-    
-    
-  ];
+
+  const [organizers, setOrganizers] = useState([]);
+
+  useEffect(() => {
+    const localData = require('./dummy-data/organizadores.json');
+    setOrganizers(localData);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log(formData);
   };
 

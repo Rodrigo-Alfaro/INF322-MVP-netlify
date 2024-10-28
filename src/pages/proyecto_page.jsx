@@ -9,7 +9,7 @@ export const ProjectPage = () => {
         <div className="project-page__video-section">
           <iframe
             className="project-page__video"
-            src="https://www.youtube.com/embed/2vJ4d8xRt7E"
+            src="https://www.youtube.com/embed/IceGrlN6W0k"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>

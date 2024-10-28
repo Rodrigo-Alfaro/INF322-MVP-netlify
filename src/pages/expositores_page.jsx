@@ -1,45 +1,16 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 
 export const ExpositoresPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const expositores = [
-    {
-      name: "Expositor 1",
-      description: "Descripción detallada del Expositor 1 y su proyecto innovador en el campo de la tecnología.",
-      link: "/expositor1",
-      category: "Software Development",
-      imageUrl: "/api/placeholder/120/120"
-    },
-    {
-      name: "Expositor 2",
-      description: "Descripción detallada del Expositor 2 y su proyecto innovador en el campo de la tecnología.",
-      link: "/expositor2",
-      category: "AI & Machine Learning",
-      imageUrl: "/api/placeholder/120/120"
-    },
-    {
-      name: "Expositor 3",
-      description: "Descripción detallada del Expositor 3 y su proyecto innovador en el campo de la tecnología.",
-      link: "/expositor3",
-      category: "Cloud Computing",
-      imageUrl: "/api/placeholder/120/120"
-    },
-    {
-      name: "Expositor 4",
-      description: "Descripción detallada del Expositor 4 y su proyecto innovador en el campo de la tecnología.",
-      link: "/expositor4",
-      category: "Mobile Development",
-      imageUrl: "/api/placeholder/120/120"
-    },
-    {
-      name: "Expositor 5",
-      description: "Descripción detallada del Expositor 5 y su proyecto innovador en el campo de la tecnología.",
-      link: "/expositor5",
-      category: "Cybersecurity",
-      imageUrl: "/api/placeholder/120/120"
-    },
-  ];
+
+  const [expositores, setExpositores] = useState([]);
+
+  useEffect(() => {
+    const localData = require('./dummy-data/expositores.json');
+    setExpositores(localData);
+  }, []);
 
   const filteredExpositores = expositores.filter(expositor =>
     expositor.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
