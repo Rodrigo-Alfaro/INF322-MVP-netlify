@@ -1,4 +1,7 @@
-import React from 'react';
+
+import React from 'react'
+import { Link } from 'react-router-dom';
+import '../stylesheets/home_page.scss';
 
 export const HomePage = () => {
   const features = [

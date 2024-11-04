@@ -10,6 +10,9 @@ import ProjectPage from '../pages/proyecto_page'
 import RedesSocialesPage from '../pages/proyecto_rrss_page'
 import ProjectTeamPage from '../pages/proyecto_equipo_page'
 import ProjectDetallesPage from '../pages/proyecto_detalles_page'
+import ProjectsPage from '../pages/ProjectsPage'
+import ProjectDetailPage from '../pages/ProjectDetailPage'
+
 
 import NavBar from '../components/nav_bar'
 
@@ -17,6 +20,7 @@ const Layout = () => {
   return (
     <BrowserRouter>
       <div className='layout'>
+
          <h1 className='layout__title'> </h1>
         <NavBar />
         <div className='layout__page'>
@@ -30,6 +34,9 @@ const Layout = () => {
             <Route path='/rrss' element={<RedesSocialesPage />} />
             <Route path='/equipo' element={<ProjectTeamPage />} />
             <Route path='/detalles' element={<ProjectDetallesPage />} />
+
+      <NavBar />
+
           </Routes>
         </div>
       </div>
@@ -37,4 +44,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default Layout;

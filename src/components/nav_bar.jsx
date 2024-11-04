@@ -7,6 +7,7 @@ export const NavBar = () => {
     if (isActive) classes.push('nav-bar__link--active')
     return classes.join(' ')
   }
+
   return (
     <nav className='nav-bar'>
       <NavLink
@@ -37,4 +38,6 @@ export const NavBar = () => {
   )
 }
 
+
 export default NavBar
+
