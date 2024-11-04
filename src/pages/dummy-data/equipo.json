@@ -3,44 +3,44 @@
         "name": "Waxillium Ladrian",
         "role": "Desarrollador Frontend",
         "description": "Apasionado por el diseño de interfaces y la experiencia del usuario. Responsable de la implementación visual del proyecto.",
-        "imageUrl": "URL_DE_IMAGEN_KELSIER",
+        "imageUrl": "https://this-person-does-not-exist.com/img/avatar-gen020365314125add68aa412f6b32a987f.jpg",
         "socialUrl": {
-            "linkedin": "URL_DE_LINKEDIN_KELSIER",
-            "twitter": "URL_DE_TWITTER_KELSIER",
-            "github": "URL_DE_GITHUB_KELSIER"
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com",
+            "github": "https://github.com/"
         }
     },
     {
         "name": "Jasnah Kholin",
         "role": "Desarrolladora Backend",
         "description": "Experta en sistemas de bases de datos y lógica de negocio, asegurando que el sistema sea robusto y escalable.",
-        "imageUrl": "URL_DE_IMAGEN_JASNAH",
+        "imageUrl": "https://this-person-does-not-exist.com/img/avatar-gen3f34a6c8b885b92527915590944f1a88.jpg",
         "socialUrl": {
-            "linkedin": "URL_DE_LINKEDIN_JASNAH",
-            "twitter": "URL_DE_TWITTER_JASNAH",
-            "github": "URL_DE_GITHUB_JASNAH"
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com",
+            "github": "https://github.com/"
         }
     },
     {
         "name": "Adolin Kholin",
         "role": "Diseñador UX/UI",
         "description": "Encargado de crear la estructura y estética de la aplicación para una navegación intuitiva.",
-        "imageUrl": "URL_DE_IMAGEN_ADOLIN",
+        "imageUrl": "https://this-person-does-not-exist.com/img/avatar-gen7d42d981620ed239f05f23f2bed49657.jpg",
         "socialUrl": {
-            "linkedin": "URL_DE_LINKEDIN_ADOLIN",
-            "twitter": "URL_DE_TWITTER_ADOLIN",
-            "github": "URL_DE_GITHUB_ADOLIN"
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com",
+            "github": "https://github.com/"
         }
     },
     {
         "name": "Marasi Colms",
         "role": "Gerente de Proyecto",
         "description": "Lidera el equipo y gestiona la comunicación entre los desarrolladores y las partes interesadas del proyecto.",
-        "imageUrl": "URL_DE_IMAGEN_NAVANI",
+        "imageUrl": "https://this-person-does-not-exist.com/img/avatar-gen27f5de67af2933e4825e2e8ec46e6d0e.jpg",
         "socialUrl": {
-            "linkedin": "URL_DE_LINKEDIN_NAVANI",
-            "twitter": "URL_DE_TWITTER_NAVANI",
-            "github": "URL_DE_GITHUB_NAVANI"
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com",
+            "github": "https://github.com/"
         }
     }
 ]

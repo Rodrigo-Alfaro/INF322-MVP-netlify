@@ -5,11 +5,11 @@ export const ProjectPage = () => {
   return (
     <div className="project-page">
       <div className="project-page__container">
-          <h1 className="project-page__title">Nombre del Proyecto</h1>
+          <h1 className="project-page__title">SecureNet Solutions</h1>
         <div className="project-page__video-section">
           <iframe
             className="project-page__video"
-            src="https://www.youtube.com/embed/IceGrlN6W0k"
+            src="https://www.youtube.com/embed/VEQd-jmVs44"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -17,7 +17,11 @@ export const ProjectPage = () => {
 
         <div className="project-page__info-section">
           <p className="project-page__description">
-            Este proyecto es una solución innovadora que busca resolver problemas en el área de [área del proyecto]. Utiliza [tecnologías o metodologías] para mejorar la experiencia del usuario y optimizar los procesos.
+          Ofrece una suite completa de servicios de ciberseguridad diseñada para proteger la información crítica de 
+          las empresas. Con un enfoque integral, SecureNet Solutions garantiza una defensa robusta contra amenazas
+          digitales, incluyendo la prevención de ataques, la gestión de vulnerabilidades y la seguridad de redes. 
+          Su misión es fortalecer la infraestructura de seguridad de sus clientes para que puedan operar de manera 
+          segura y confiable en el entorno digital.
           </p>
         </div>
 
@@ -27,7 +31,7 @@ export const ProjectPage = () => {
       problemUrl={"http://localhost:5050/proyecto"}
        socialUrl="http://localhost:5050/rrss" 
        teamUrl="http://localhost:5050/equipo"
-       detailsUrl="URL_MAS_DETALLES"
+       detailsUrl="http://localhost:5050/detalles"
       >
       </BottomNavbar>
     </div>

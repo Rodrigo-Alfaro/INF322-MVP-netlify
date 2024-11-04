@@ -15,7 +15,8 @@ export const TeamPage = () => {
                 <div className="team-page__header">
                     <h1 className="team-page__header-title">Conoce al Equipo</h1>
                     <p className="team-page__header-description">
-                        Un equipo talentoso y comprometido que ha trabajado en el desarrollo de este proyecto.
+                    El equipo detrás de SecureNet Solutions está compuesto por expertos en ciberseguridad, desarrolladores de software y analistas de datos. Cada miembro del equipo aporta una vasta experiencia y conocimientos especializados para garantizar que el proyecto cumpla con los más altos estándares de seguridad y eficiencia.
+
                     </p>
                 </div>
 

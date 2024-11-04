@@ -40,7 +40,7 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
       max-width: 300px; // Ancho máximo de cada tarjeta
-      flex: 1 1 300px; // Tarjetas flexibles con un ancho base de 300px
+      flex: 1 1 100px; // Tarjetas flexibles con un ancho base de 300px
 
       &:hover {
           transform: translateY(-8px);
@@ -127,6 +127,6 @@
   }
 
   &__bottom-navbar {
-      margin-top: 64px; // Ajusta el margen según sea necesario
+      margin-top: 64px; 
   }
 }

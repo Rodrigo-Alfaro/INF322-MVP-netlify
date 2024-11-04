@@ -8,7 +8,6 @@ export const contactoPage = () => {
     message: ''
   });
 
-
   const [organizers, setOrganizers] = useState([]);
 
   useEffect(() => {
@@ -19,6 +18,7 @@ export const contactoPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
+    alert('Mensaje enviado con éxito, te responderemos a la brevedad.');
   };
 
   const handleChange = (e) => {

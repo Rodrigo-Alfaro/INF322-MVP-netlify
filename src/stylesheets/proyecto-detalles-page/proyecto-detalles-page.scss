@@ -48,26 +48,37 @@
             margin: 0 auto;
             padding-bottom: 20px;
         }
-    }
 
-    @media (max-width: 768px) {
-        &__title {
-            font-size: 2rem;
-        }
+        & ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        &__info-section {
-            padding: 20px 0;
+            & li {
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 16px 24px;
+                margin: 8px 0;
+                width: 100%;
+                max-width: 800px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-            & .proyecto-detalles-page__description {
-                font-size: 1rem;
-            }
+                &:hover {
+                    transform: translateY(-4px);
+                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+                }
 
-            & .proyecto-detalles-page__subtitle {
-                font-size: 1.5rem;
-            }
-
-            & .proyecto-detalles-page__text {
-                font-size: 1rem;
+                &::before {
+                    color: #2d3748;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
             }
         }
     }

@@ -3,7 +3,7 @@
       "name": "TechWave Innovations",
       "description": "Plataforma interactiva que permite a las empresas personalizar sus herramientas de trabajo para mejorar la productividad y colaboración.",
       "link": "/proyecto",
-      "category": "Software Development",
+      "category": "Desarrollo de Software",
       "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.appstudio.ca%2Fblog%2Fwp-content%2Fuploads%2F2020%2F09%2FModern-Software-Development.jpg&f=1&nofb=1&ipt=ab0ee7da7f384b60936f353913845a40c186f002a8b0c0a98ecf768c99da5868&ipo=images"
   },
   {
@@ -24,14 +24,14 @@
       "name": "AppForge",
       "description": "Desarrolla aplicaciones móviles intuitivas y de alto rendimiento para conectar empresas y clientes efectivamente.",
       "link": "/proyecto",
-      "category": "Mobile Development",
+      "category": "Desarollo Movil",
       "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themagazine.org%2Fwp-content%2Fuploads%2F2021%2F09%2Fdifferent-types-of-software-coderus-branded-image-1920x9999-1.jpg&f=1&nofb=1&ipt=f8f88fd4cdc37952690698347c67a85f88c597dd7980ef3d88b47b3f3f289438&ipo=images"
   },
   {
       "name": "SecureNet Solutions",
       "description": "Proporciona servicios de ciberseguridad integral para proteger la información crítica de las empresas.",
       "link": "/proyecto",
-      "category": "Cybersecurity",
+      "category": "Cyberseguridad",
       "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.udacity.com%2Fblog%2Fwp-content%2Fuploads%2F2020%2F07%2FCybersecurity-Specialist_Blog-scaled.jpeg&f=1&nofb=1&ipt=c0715176be5ff77faf3c61fbbf80870486be20cf5a5661d391607dc0bb92589b&ipo=images"
   }
 ]
