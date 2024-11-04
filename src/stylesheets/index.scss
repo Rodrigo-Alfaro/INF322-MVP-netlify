@@ -3,16 +3,7 @@
 @import './layout/index.scss';
 @import './nav-bar/index.scss';
 @import './lightbulb-page/index.scss';
-@import './home_page/index.scss';
-@import './expositores-page/index.scss';
-@import './contacto-page/index.scss';
-@import './about-page/index.scss';
-@import './proyecto-page/index.scss';
-@import './nav-bar-proyectos/index.scss';
-@import './proyecto-rrss-page/index.scss';
-@import './proyecto-equipo-page/index.scss';
-@import './proyecto-detalles-page/index.scss';
-
+@import './home_page.scss';
 
 html, body {
   padding: 0;

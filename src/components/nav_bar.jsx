@@ -10,34 +10,10 @@ export const NavBar = () => {
 
   return (
     <nav className='nav-bar'>
-      <NavLink
-        className={navLinkClass}
-        to='/'
-      >
-        Inicio
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/expositores'
-      >
-        Expositores
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/contacto'
-      >
-        Contacto
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/about'
-      >
-        Acerca de la Feria del Software
-      </NavLink>
+      <NavLink className={navLinkClass} to='/'>Inicio</NavLink>
+      <NavLink className={navLinkClass} to='/projects'>Expositores</NavLink>
     </nav>
   )
 }
 
-
-export default NavBar
-
+export default NavBar;
