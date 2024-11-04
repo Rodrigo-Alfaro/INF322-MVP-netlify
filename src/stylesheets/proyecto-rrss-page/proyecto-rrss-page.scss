@@ -1,0 +1,60 @@
+.redes-sociales-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 24px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+
+  &__container {
+    max-width: 800px;
+    text-align: center;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &__header {
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    font-size: 1.125rem;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4299e1;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background: rgba(66, 153, 225, 0.1);
+
+    &:hover {
+      background: rgba(66, 153, 225, 0.2);
+      color: #3182ce;
+      transform: translateY(-2px);
+    }
+  }
+}
