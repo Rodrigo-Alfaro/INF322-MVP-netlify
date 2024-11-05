@@ -16,18 +16,12 @@ Este proyecto es una aplicación web para la difusion del evento de Feria de Sof
 El sistema sigue una arquitectura de tipo **MVC** (Modelo-Vista-Controlador) y se estructura en una parte principal:
 
 1. **Frontend**: React.js se encarga de la interfaz de usuario, gestionando las interacciones del cliente.
-
+    
 ## 4. Flujo de Trabajo
-El desarrollo se realiza en ramas de características (`feature/xyz`)
+El desarrollo se realiza en ramas de características (`avance`)
 
-## 5. Integración y Despliegue
-- **Integración continua**: GitHub
+## 5. Integración y Despliegue- **Integración continua**: GitHub
 
-## frontend-sample-app
-
-Basic Frontend Development Environment to start an app with Webpack
-
-This repo includes `Webpack` to start an environment to build frontend views using `React`.
 
 ### Requirements
 
