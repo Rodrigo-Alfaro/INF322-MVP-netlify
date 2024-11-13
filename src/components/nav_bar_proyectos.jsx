@@ -2,44 +2,44 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
-const BottomNavbar = ({ problemUrl, socialUrl, teamUrl, detailsUrl }) => {
+const BottomNavbar = () => {
+  const navLinkClass = ({ isActive }) => {
+    const classes = ['nav-bar__link']
+    if (isActive) classes.push('nav-bar__link--active')
+    return classes.join(' ')
+  }
+
   return (
-    //estan con bottones en vez de navlink como la de ejemplo para que manejar diff pags de proyectos
-    //sea mas facil, ya que como no hay be solo hay que hardcodear las pages.
     <div className="bottom-navbar">
-      <button
+      <NavLink
         className="bottom-navbar__item"
-        onClick={() => window.location.href = problemUrl}
+        to='/proyecto'
       >
         Presentacion Problema
-      </button>
-      <button
+      </NavLink>
+      <NavLink
         className="bottom-navbar__item"
-        onClick={() => window.location.href = socialUrl}
+        to='/rrss'
       >
         Redes Sociales
-      </button>
-      <button
+      </NavLink>
+      <NavLink
         className="bottom-navbar__item"
-        onClick={() => window.location.href = teamUrl}
+        to='/equipo'
       >
         Conoce al Equipo
-      </button>
-      <button
+      </NavLink>
+      <NavLink
         className="bottom-navbar__item"
-        onClick={() => window.location.href = detailsUrl}
+        to='/detalles'
       >
         Más Detalles
-      </button>
+      </NavLink>
     </div>
   );
 };
 
 // Validación de las props
-BottomNavbar.propTypes = {
-  socialUrl: PropTypes.string.isRequired,
-  teamUrl: PropTypes.string.isRequired,
-  detailsUrl: PropTypes.string.isRequired,
-};
+
 
 export default BottomNavbar;
