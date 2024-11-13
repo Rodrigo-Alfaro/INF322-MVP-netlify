@@ -49,12 +49,7 @@ export const ProjectDetallesPage = () => {
                 </div>
             </div>
             
-            <BottomNavbar
-                problemUrl={"http://localhost:5050/proyecto"}
-                socialUrl="http://localhost:5050/rrss"
-                teamUrl="http://localhost:5050/equipo"
-                detailsUrl="http://localhost:5050/detalles"
-            />
+            <BottomNavbar/>
         </div>
     );
 };
