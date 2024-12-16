@@ -11,6 +11,7 @@ Este proyecto es una aplicación web para la difusión de una Feria de Software 
 - Node.js y React
 
 ## 3. Despliegue
+[Netlify](https://feriadelswvirtual.netlify.app/) 
 
 ### Requisitos
 
